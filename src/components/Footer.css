@@ -1,0 +1,41 @@
+.footer {
+    padding: 3rem 0;
+    border-top: 1px solid rgba(198, 168, 124, 0.1);
+    margin-top: auto;
+}
+
+.contact-info {
+    margin-bottom: 2rem;
+    color: var(--color-accent-gold);
+    font-size: 0.9rem;
+    letter-spacing: 0.05em;
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.social-icon {
+    color: var(--color-text-light);
+    opacity: 0.6;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-icon:hover {
+    color: var(--color-accent-gold);
+    opacity: 1;
+    transform: translateY(-3px);
+}
+
+.copyright {
+    font-size: 0.875rem;
+    color: #8C7B6C;
+    /* Muted brown */
+    letter-spacing: 0.05em;
+}

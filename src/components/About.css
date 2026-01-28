@@ -1,0 +1,67 @@
+.about-section {
+    padding: 6rem 2rem;
+    background-color: #5e321b;
+    /* Updated Brand Brown */
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.about-content {
+    max-width: 900px;
+    text-align: left;
+}
+
+.about-heading {
+    font-family: var(--font-heading);
+    font-size: 4rem;
+    /* Editorial Size */
+    margin-bottom: 3rem;
+    position: relative;
+    display: inline-block;
+    color: #EDE8D0;
+    /* color: var(--color-bg-main); */
+    /* Inverted to Light */
+}
+
+.about-heading::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -80px;
+    width: 60px;
+    height: 2px;
+    background-color: #EDE8D0;
+}
+
+.about-text {
+    font-family: var(--font-body);
+    font-size: 1.25rem;
+    line-height: 1.8;
+    color: #EDE8D0;
+    /* Light text for readability */
+    margin-bottom: 2rem;
+}
+
+.about-tagline {
+    font-family: var(--font-heading);
+    font-size: 2rem;
+    color: #EDE8D0;
+    /* Inverted to Light */
+    margin: 3rem 0;
+    line-height: 1.3;
+}
+
+.gold {
+    color: #EABE53;
+}
+
+@media (max-width: 768px) {
+    .about-heading {
+        font-size: 3rem;
+    }
+
+    .about-heading::after {
+        display: none;
+    }
+}
