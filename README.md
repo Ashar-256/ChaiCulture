@@ -1,16 +1,54 @@
-# React + Vite
+# Chai Culture ☕✨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+> **Brew the Royal Tradition.**
 
-Currently, two official plugins are available:
+A premium, heritage-inspired landing page for **Chai Culture**, blending modern web design with the warmth of Indian tea traditions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔗 **Live Demo:** [https://Ashar-256.github.io/ChaiCulture](https://Ashar-256.github.io/ChaiCulture)
 
-## React Compiler
+## 🎨 Project Overview
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This project is a high-fidelity "Coming Soon" landing page designed to evoke a sense of "luxury availability." The design moves away from standard minimalism, employing rich browns, warm creams, and deep gold accents to reflect the brand's royal identity.
 
-## Expanding the ESLint configuration
+### Key Features
+- **Responsive Design:** Fully optimized for Mobile, Tablet, and Desktop.
+- **Visual Storytelling:** Custom "Chai Cup" hero imagery with subtle floating animations.
+- **Email Signup:** Functional layout for capturing early interest.
+- **Premium Aesthetics:** Custom typography (`Cormorant Garamond` & `Montserrat`) and a curated royal color palette.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Framework:** React + Vite
+- **Styling:** Vanilla CSS (CSS Variables for theming)
+- **Deployment:** GitHub Pages
+- **Typography:** Google Fonts
+
+## 📂 Design Documentation
+
+For a deep dive into the color choices, typography strategy, and asset decisions, please refer to the [Design Choices](./DESIGN_CHOICES.md) document.
+
+## 🚀 Getting Started
+
+1.  **Clone the repository**
+    ```bash
+    git clone https://github.com/Ashar-256/ChaiCulture.git
+    cd ChaiCulture
+    ```
+
+2.  **Install dependencies**
+    ```bash
+    npm install
+    ```
+
+3.  **Run development server**
+    ```bash
+    npm run dev
+    ```
+
+## 👤 Author
+
+**Ashar-256**
+- GitHub: [@Ashar-256](https://github.com/Ashar-256)
+
+---
+*Made with ❤️ and a cup of chai.*
